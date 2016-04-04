@@ -1,0 +1,75 @@
+/**
+ * @file
+ * elements/forms.less.
+ */
+.field-prefix,
+.field-suffix {
+  color: #999;
+}
+.form-control {
+  -webkit-box-shadow: inset 0 2px 3px rgba(237, 237, 237, 0.7);
+  box-shadow: inset 0 2px 3px rgba(237, 237, 237, 0.7);
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  color: #6a7072;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.control-label {
+  font-weight: 600;
+}
+.form-control-inverse {
+  border-color: #373737;
+  background-color: #6c7173;
+  color: #fff;
+  -webkit-box-shadow: inset 0 2px 3px #5a5f61;
+  box-shadow: inset 0 2px 3px #5a5f61;
+}
+.input-group-inverse .form-control {
+  border-color: #373737;
+  background-color: #6c7173;
+  color: #fff;
+  -webkit-box-shadow: inset 0 2px 3px #5a5f61;
+  box-shadow: inset 0 2px 3px #5a5f61;
+}
+.input-group-inverse .input-group-addon {
+  border-color: #373737;
+  background-color: #535759;
+  color: #fff;
+}
+.input-inverse {
+  border-color: #1d1d1d;
+}
+.input-group-addon.btn-primary,
+.input-group-addon.btn-info,
+.input-group-addon.btn-success,
+.input-group-addon.btn-warning,
+.input-group-addon.btn-danger {
+  color: #fff;
+}
+select {
+  font-weight: 600;
+  cursor: pointer;
+}
+select option {
+  line-height: 1.3em;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: #ffffff !important;
+  color: #393c3d !important;
+}
+.exposed-form {
+  background-color: #efefef;
+  padding: 15px 15px 0 15px;
+  margin-top: -15px;
+  border-top: 1px solid #e0e0e0;
+}
+.edit-options {
+  margin-top: -19px;
+  padding-top: 15px;
+  background-color: #f7f7f7;
+}
