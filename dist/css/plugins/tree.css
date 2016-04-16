@@ -1,0 +1,32 @@
+/**
+ * @file
+ * components/tree.less.
+ */
+.jstree-default .jstree-checkbox {
+  background-image: url(../images/jstree.png);
+}
+.jstree-default .jstree-icon {
+  color: #393c3d;
+}
+.jstree-default .jstree-hovered {
+  background-color: #fff3e3;
+}
+.jstree-default .jstree-clicked {
+  background-color: #fff3e3;
+}
+.jstree-default .jstree-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.jstree-default .colored {
+  color: #FC730A;
+}
+.jstree-default .colored .jstree-icon {
+  color: #FC730A;
+}
+.jstree-default .colored-icon .jstree-icon {
+  color: #FC730A;
+}
+.jstree-default .folder .jstree-icon {
+  color: #F5B62A;
+}
