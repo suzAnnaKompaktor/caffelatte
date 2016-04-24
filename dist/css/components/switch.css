@@ -82,6 +82,8 @@ a.switch-primary .switch-handle:before:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccea6703', endColorstr='#fffc730a', GradientType=0);
 }
 .switch-primary .switch-handle:before.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #db3c03;
 }
 .switch-primary .switch-handle:before .jumbotron {
@@ -110,6 +112,8 @@ a.switch-info .switch-handle:before:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc378ddc', endColorstr='#ff4d99e0', GradientType=0);
 }
 .switch-info .switch-handle:before.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #2aa2da;
 }
 .switch-info .switch-handle:before .jumbotron {
@@ -138,6 +142,8 @@ a.switch-success .switch-handle:before:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc86a410', endColorstr='#ff99bb12', GradientType=0);
 }
 .switch-success .switch-handle:before.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #91960e;
 }
 .switch-success .switch-handle:before .jumbotron {
@@ -166,6 +172,8 @@ a.switch-warning .switch-handle:before:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccf4ae12', endColorstr='#fff5b62a', GradientType=0);
 }
 .switch-warning .switch-handle:before.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #eb800b;
 }
 .switch-warning .switch-handle:before .jumbotron {
@@ -194,6 +202,8 @@ a.switch-danger .switch-handle:before:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc8a1504', endColorstr='#ffa31905', GradientType=0);
 }
 .switch-danger .switch-handle:before.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #7b0409;
 }
 .switch-danger .switch-handle:before .jumbotron {
@@ -222,6 +232,8 @@ a.switch-dark .switch-handle:before:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff474a4c', endColorstr='#ff535759', GradientType=0);
 }
 .switch-dark .switch-handle:before.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #3f4344;
 }
 .switch-dark .switch-handle:before .jumbotron {

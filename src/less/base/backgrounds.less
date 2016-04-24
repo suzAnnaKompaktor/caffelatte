@@ -7,8 +7,46 @@
 
 .bg-base{background-color:@body-bg;}
 .bg-light{background-color:@light-bg;}
-.bg-dark{background-color:@dark-bg;}
-.bg-darker{background-color:@darker-bg;}
+.bg-dark{
+  @color: @dark-bg;
+  background-color:@color;
+
+  &.bg-styled {
+    .bg-variant-styled(@color);
+  }
+
+  &.bg-styled-alt{
+    .bg-variant-styled-alt(@color);
+  }
+
+  &.bordered {
+    .border();
+  }
+
+  .jumbotron {
+    background: transparent;
+  }
+}
+.bg-darker{
+  @color: @darker-bg;
+  background-color:@color;
+
+  &.bg-styled {
+    .bg-variant-styled(@color);
+  }
+
+  &.bg-styled-alt{
+    .bg-variant-styled-alt(@color);
+  }
+
+  &.bordered {
+    .border(@border-color-dark);
+  }
+
+  .jumbotron {
+    background: transparent;
+  }
+}
 
 /* -top section dark gradient */
 .gradient-darker{                #gradient > .vertical(@inverse-bg, @dark-inverse-bg);}

@@ -8,6 +8,8 @@
 .box-variant-bordered(@color) {
   @darken: darken(@color, 8%);
   @spin: spin(@darken, -10);
+  border-width: 1px;
+  border-style: solid;
   border-color:@spin;
 }
 

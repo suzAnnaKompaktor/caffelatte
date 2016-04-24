@@ -32,6 +32,26 @@
   border: 1px solid #d3d3d3;
   background-color: #e3e3e3;
 }
+.panel-heading.bg-styled {
+  background-color: #e3e3e3;
+  -webkit-box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+}
+.panel-heading.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: -o-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: linear-gradient(to bottom, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccd6d6d6', endColorstr='#ffe3e3e3', GradientType=0);
+}
+.panel-heading.bordered {
+  border: 1px solid #d3d3d3;
+}
+.panel-heading .jumbotron {
+  background: transparent;
+}
 .panel-heading .panel-actions {
   position: absolute;
   right: 15px;
@@ -76,6 +96,26 @@ a.panel-heading .panel-actions a.icon-star:focus {
   border-bottom-left-radius: 0;
   margin-top: -1px;
 }
+.panel-footer.bg-styled {
+  background-color: #efefef;
+  -webkit-box-shadow: inset 0 0 20px rgba(227, 227, 227, 0.8);
+  box-shadow: inset 0 0 20px rgba(227, 227, 227, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(227, 227, 227, 0.8);
+  box-shadow: inset 0 0 2rem rgba(227, 227, 227, 0.8);
+}
+.panel-footer.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-image: -o-linear-gradient(top, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-image: linear-gradient(to bottom, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cce3e3e3', endColorstr='#ffefefef', GradientType=0);
+}
+.panel-footer.bordered {
+  border: 1px solid #e0e0e0;
+}
+.panel-footer .jumbotron {
+  background: transparent;
+}
 .panel-footer.btn-group-justified {
   padding: 0;
   border: none;
@@ -92,6 +132,8 @@ a.panel-heading .panel-actions a.icon-star:focus {
   box-shadow: inset 0 0 20px rgba(234, 103, 3, 0.8);
   -webkit-box-shadow: inset 0 0 2rem rgba(234, 103, 3, 0.8);
   box-shadow: inset 0 0 2rem rgba(234, 103, 3, 0.8);
+  border-width: 1px;
+  border-style: solid;
   border-color: #db3c03;
 }
 .panel-primary > .panel-heading,
@@ -128,6 +170,8 @@ a.panel-heading .panel-actions a.icon-star:focus {
   box-shadow: inset 0 0 20px rgba(134, 164, 16, 0.8);
   -webkit-box-shadow: inset 0 0 2rem rgba(134, 164, 16, 0.8);
   box-shadow: inset 0 0 2rem rgba(134, 164, 16, 0.8);
+  border-width: 1px;
+  border-style: solid;
   border-color: #91960e;
 }
 .panel-success > .panel-heading,
@@ -164,6 +208,8 @@ a.panel-heading .panel-actions a.icon-star:focus {
   box-shadow: inset 0 0 20px rgba(55, 141, 220, 0.8);
   -webkit-box-shadow: inset 0 0 2rem rgba(55, 141, 220, 0.8);
   box-shadow: inset 0 0 2rem rgba(55, 141, 220, 0.8);
+  border-width: 1px;
+  border-style: solid;
   border-color: #2aa2da;
 }
 .panel-info > .panel-heading,
@@ -200,6 +246,8 @@ a.panel-heading .panel-actions a.icon-star:focus {
   box-shadow: inset 0 0 20px rgba(244, 174, 18, 0.8);
   -webkit-box-shadow: inset 0 0 2rem rgba(244, 174, 18, 0.8);
   box-shadow: inset 0 0 2rem rgba(244, 174, 18, 0.8);
+  border-width: 1px;
+  border-style: solid;
   border-color: #eb800b;
 }
 .panel-warning > .panel-heading,
@@ -236,6 +284,8 @@ a.panel-heading .panel-actions a.icon-star:focus {
   box-shadow: inset 0 0 20px rgba(138, 21, 4, 0.8);
   -webkit-box-shadow: inset 0 0 2rem rgba(138, 21, 4, 0.8);
   box-shadow: inset 0 0 2rem rgba(138, 21, 4, 0.8);
+  border-width: 1px;
+  border-style: solid;
   border-color: #7b0409;
 }
 .panel-danger > .panel-heading,
@@ -272,6 +322,8 @@ a.panel-heading .panel-actions a.icon-star:focus {
   box-shadow: inset 0 0 20px rgba(71, 74, 76, 0.8);
   -webkit-box-shadow: inset 0 0 2rem rgba(71, 74, 76, 0.8);
   box-shadow: inset 0 0 2rem rgba(71, 74, 76, 0.8);
+  border-width: 1px;
+  border-style: solid;
   border-color: #3f4344;
 }
 .panel-dark > .panel-heading,

@@ -45,6 +45,8 @@ a.timeline .timeline--body:before:focus {
 }
 .timeline .timeline--body:after.bordered,
 .timeline .timeline--body:before.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #3f4344;
 }
 .timeline .timeline--body:after .jumbotron,
@@ -151,6 +153,8 @@ a.timeline .timeline--items > li .timeline--icon:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff474a4c', endColorstr='#ff535759', GradientType=0);
 }
 .timeline .timeline--items > li .timeline--icon.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #3f4344;
 }
 .timeline .timeline--items > li .timeline--icon .jumbotron {
@@ -183,6 +187,8 @@ a.timeline .timeline--items > li .timeline--icon.timeline--icon-primary:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccea6703', endColorstr='#fffc730a', GradientType=0);
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-primary.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #db3c03;
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-primary .jumbotron {
@@ -216,6 +222,8 @@ a.timeline .timeline--items > li .timeline--icon.timeline--icon-info:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc378ddc', endColorstr='#ff4d99e0', GradientType=0);
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-info.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #2aa2da;
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-info .jumbotron {
@@ -249,6 +257,8 @@ a.timeline .timeline--items > li .timeline--icon.timeline--icon-success:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc86a410', endColorstr='#ff99bb12', GradientType=0);
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-success.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #91960e;
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-success .jumbotron {
@@ -282,6 +292,8 @@ a.timeline .timeline--items > li .timeline--icon.timeline--icon-warning:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccf4ae12', endColorstr='#fff5b62a', GradientType=0);
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-warning.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #eb800b;
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-warning .jumbotron {
@@ -315,6 +327,8 @@ a.timeline .timeline--items > li .timeline--icon.timeline--icon-danger:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc8a1504', endColorstr='#ffa31905', GradientType=0);
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-danger.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #7b0409;
 }
 .timeline .timeline--items > li .timeline--icon.timeline--icon-danger .jumbotron {

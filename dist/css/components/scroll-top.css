@@ -41,6 +41,8 @@ a.scroll-to-top:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff474a4c', endColorstr='#ff535759', GradientType=0);
 }
 .scroll-to-top.bordered {
+  border-width: 1px;
+  border-style: solid;
   border-color: #3f4344;
 }
 .scroll-to-top .jumbotron {
