@@ -4557,6 +4557,26 @@ fieldset[disabled] .ui-widget-header .ui-button.btn-inverse.focus {
 .ui-tabs .tabs-collapsed > ul.dropdown:after {
   clear: both;
 }
+.ui-tabs .tabs-collapsed > ul.dropdown.bg-styled {
+  background-color: #e3e3e3;
+  -webkit-box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+}
+.ui-tabs .tabs-collapsed > ul.dropdown.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: -o-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: linear-gradient(to bottom, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccd6d6d6', endColorstr='#ffe3e3e3', GradientType=0);
+}
+.ui-tabs .tabs-collapsed > ul.dropdown.bordered {
+  border-color: #cecece;
+}
+.ui-tabs .tabs-collapsed > ul.dropdown .jumbotron {
+  background: transparent;
+}
 .ui-tabs .tabs-collapsed > ul.dropdown > li {
   margin-bottom: -1px;
   margin-top: -1px;
@@ -4777,6 +4797,26 @@ fieldset[disabled] .ui-widget-header .ui-button.btn-inverse.focus {
 }
 .ui-tabs .ui-tabs-nav > li > a > img {
   max-width: none;
+}
+.ui-tabs .ui-tabs-nav.bg-styled {
+  background-color: #e3e3e3;
+  -webkit-box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+}
+.ui-tabs .ui-tabs-nav.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: -o-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: linear-gradient(to bottom, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccd6d6d6', endColorstr='#ffe3e3e3', GradientType=0);
+}
+.ui-tabs .ui-tabs-nav.bordered {
+  border-color: #cecece;
+}
+.ui-tabs .ui-tabs-nav .jumbotron {
+  background: transparent;
 }
 .ui-tabs .ui-tabs-nav > li {
   /* Make the list-items overlay the bottom border*/

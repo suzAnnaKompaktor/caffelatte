@@ -24,6 +24,26 @@
 .tabs .tabs-collapsed > ul.dropdown:after {
   clear: both;
 }
+.tabs .tabs-collapsed > ul.dropdown.bg-styled {
+  background-color: #e3e3e3;
+  -webkit-box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+}
+.tabs .tabs-collapsed > ul.dropdown.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: -o-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: linear-gradient(to bottom, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccd6d6d6', endColorstr='#ffe3e3e3', GradientType=0);
+}
+.tabs .tabs-collapsed > ul.dropdown.bordered {
+  border-color: #cecece;
+}
+.tabs .tabs-collapsed > ul.dropdown .jumbotron {
+  background: transparent;
+}
 .tabs .tabs-collapsed > ul.dropdown > li {
   margin-bottom: -1px;
   margin-top: -1px;
@@ -150,6 +170,26 @@
 }
 .nav-tabs > li > a > img {
   max-width: none;
+}
+.nav-tabs.bg-styled {
+  background-color: #e3e3e3;
+  -webkit-box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+}
+.nav-tabs.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: -o-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: linear-gradient(to bottom, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccd6d6d6', endColorstr='#ffe3e3e3', GradientType=0);
+}
+.nav-tabs.bordered {
+  border-color: #cecece;
+}
+.nav-tabs .jumbotron {
+  background: transparent;
 }
 .nav-tabs > li {
   /* Make the list-items overlay the bottom border*/
@@ -526,6 +566,26 @@
 .nav-tabs-secondary > li > a > img {
   max-width: none;
 }
+.nav-tabs-secondary.bg-styled {
+  background-color: #e3e3e3;
+  -webkit-box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+}
+.nav-tabs-secondary.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: -o-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: linear-gradient(to bottom, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccd6d6d6', endColorstr='#ffe3e3e3', GradientType=0);
+}
+.nav-tabs-secondary.bordered {
+  border-color: #cecece;
+}
+.nav-tabs-secondary .jumbotron {
+  background: transparent;
+}
 .nav-tabs-secondary > li {
   /* Make the list-items overlay the bottom border*/
   margin-bottom: -1px;
@@ -755,6 +815,26 @@
   height: 100%;
   width: 3px;
 }
+.nav-tabs-secondary.bg-styled {
+  background-color: #efefef;
+  -webkit-box-shadow: inset 0 0 20px rgba(227, 227, 227, 0.8);
+  box-shadow: inset 0 0 20px rgba(227, 227, 227, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(227, 227, 227, 0.8);
+  box-shadow: inset 0 0 2rem rgba(227, 227, 227, 0.8);
+}
+.nav-tabs-secondary.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-image: -o-linear-gradient(top, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-image: linear-gradient(to bottom, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cce3e3e3', endColorstr='#ffefefef', GradientType=0);
+}
+.nav-tabs-secondary.bordered {
+  border-color: #dbdbdb;
+}
+.nav-tabs-secondary .jumbotron {
+  background: transparent;
+}
 .nav-tabs-secondary > li {
   margin-bottom: 0;
   margin-left: 5px;
@@ -839,6 +919,26 @@
 .primary-tabs:after {
   clear: both;
 }
+.primary-tabs.bg-styled {
+  background-color: #e3e3e3;
+  -webkit-box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 20px rgba(214, 214, 214, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+  box-shadow: inset 0 0 2rem rgba(214, 214, 214, 0.8);
+}
+.primary-tabs.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: -o-linear-gradient(top, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-image: linear-gradient(to bottom, rgba(214, 214, 214, 0.8) 0%, #e3e3e3 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccd6d6d6', endColorstr='#ffe3e3e3', GradientType=0);
+}
+.primary-tabs.bordered {
+  border-color: #cecece;
+}
+.primary-tabs .jumbotron {
+  background: transparent;
+}
 .primary-tabs > .nav-tabs {
   display: block;
   float: right;
@@ -920,6 +1020,26 @@
 }
 .nav.nav-list > li > a:hover {
   background-color: #efefef;
+}
+.nav.nav-list > li > a:hover.bg-styled {
+  background-color: #efefef;
+  -webkit-box-shadow: inset 0 0 20px rgba(227, 227, 227, 0.8);
+  box-shadow: inset 0 0 20px rgba(227, 227, 227, 0.8);
+  -webkit-box-shadow: inset 0 0 2rem rgba(227, 227, 227, 0.8);
+  box-shadow: inset 0 0 2rem rgba(227, 227, 227, 0.8);
+}
+.nav.nav-list > li > a:hover.bg-styled-alt {
+  background-image: -webkit-linear-gradient(top, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-image: -o-linear-gradient(top, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-image: linear-gradient(to bottom, rgba(227, 227, 227, 0.8) 0%, #efefef 30%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cce3e3e3', endColorstr='#ffefefef', GradientType=0);
+}
+.nav.nav-list > li > a:hover.bordered {
+  border-color: #dbdbdb;
+}
+.nav.nav-list > li > a:hover .jumbotron {
+  background: transparent;
 }
 .nav.nav-list > li.active > a {
   color: #fff;
